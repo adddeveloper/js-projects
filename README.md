@@ -13,38 +13,23 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-# ROCK PAPER SCISSORS
 
-> ROCK, PAPER, SCISSORS to play.
+[![GitHub stars](https://img.shields.io/github/stars/adddeveloper/js-projects.svg?style=social)](https://github.com/adddeveloper/js-projects/stargazers) [![GitHub last commit](https://img.shields.io/github/last-commit/adddeveloper/js-projects?logo=github)](https://github.com/adddeveloper/js-projects)
 
-## Built With
-- HTML
-- CSS
-- JAVASCRIPT
+# JavaScript Projects
+> Simple projects using mainly but not limited to JavaScript.
 
-## Instrucions to Play
-- Choose between Rock, Paper or Scissors by clicking on the icon.
-- Rock beats Scissors.
-- Scissors beats Paper.
-- Paper beats Rock.
-- You win some and lose some and you..
-- Play again!
 
 ## Live Demo
-
-[Live Demo Link](https://adddeveloper.github.io/js-projects/1.%20Rock,%20Paper,%20Scissors/) :point_left:
+[Live Demo Link](https://adnanddeveloper.github.io/) :point_left:
 
 ## Authors
 👤 Adnan Hussein
 - Github: [@adnanddeveloper](https://github.com/adnanddeveloper)
 - Linkedin: [Adnan Hussein](https://www.linkedin.com/in/adnan-hussein-b82a80216/)
-- Website: [Adnans.website](https://www.adnans.website/)
 
 ## 🤝 Contributing
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the other [js projects](https://github.com/adddeveloper/js-projects).
-
 ## Show your support
-
 Give a ⭐️ if you like this project!

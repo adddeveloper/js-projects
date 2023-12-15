@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Projects</title>
+</head>
+
+<body>
+    <style>
+        /* Table styles */
+#projectTable {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+#projectTable th,
+#projectTable td {
+  border: 1px solid #000;
+  padding: 8px;
+  text-align: left;
+}
+
+#projectTable th {
+  background-color: #fff;
+}
+
+/* Alternating row colors */
+#projectTable tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Hover effect for table rows */
+#projectTable tbody tr:hover {
+  background-color: #e6e6e6;
+}
+
+    </style>
+    <style>
+        p, h1{
+            margin: 0;
+        }
+    </style>
+    <h1>JS Projects</h1>
+    <p>Simple projects using mainly but not limited to JavaScript.</p>
+    <table id="projectTable" border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Github Link</th>
+                <th>Live Link</th>
+            </tr>
+        </thead>
+        <tbody id="projectTableBody">
+            <!-- Table body will be populated dynamically -->
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
