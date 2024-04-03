@@ -21,7 +21,7 @@
 
 
 ## Live Demo
-[Live Demo Link](https://adnanddeveloper.github.io/) :point_left:
+[Live Demo Link](https://adddeveloper.github.io/js-projects/) :point_left:
 
 ## Authors
 👤 Adnan Hussein
