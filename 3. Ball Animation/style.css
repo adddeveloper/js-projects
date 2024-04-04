@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  input, label{
+    position: absolute;
+    bottom: 50vh;
+    left: 45vw;
+  }
+  
+  label {
+    color: black;
+    bottom: 55vh;
+  }
+  
+  input{
+    background-color: black;
+    color: white;
+    border: black solid 1px;
+  }

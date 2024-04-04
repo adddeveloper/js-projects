@@ -1,0 +1,110 @@
+
+.slither{
+  color: #156064;
+  transition: all ease .5s;
+  cursor: pointer;
+}
+
+a.brandName{
+  font-size: 1.5rem;
+  font-weight: bolder;
+  text-decoration: none;
+  white-space: nowrap;
+}
+body{
+  background: #F6FFF8 !important;
+}
+*{
+  color: #04282A;
+  color: #156064;
+}
+a{
+  text-decoration: none;
+}
+.border-none{
+  border: 0 !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+.slither{
+  color: #156064;
+  transition: all ease .5s;
+  cursor: pointer;
+}
+.slither>span:hover{
+  color: #0d868c;
+  margin: 1px;
+}
+
+/********** Decodeing & Encoding **********/
+.upload-area{
+  background: #E3F3EA;
+  cursor: pointer;
+  display:  flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:  center;
+}
+.choose{
+  color: #156064;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  transition: 0.5s;
+}
+.choose:hover{
+  color: #6b9b81;
+}
+.uploading, .error, .success{
+  font-size: 18px;
+  font-weight: 600;
+  display: none;
+}
+.uploading{
+  color: #04282A;
+
+}
+.success{
+  color: #579979;
+}
+.error{
+  color: #C84949;
+}
+button{
+  background: #156064;
+  padding: 6px 16px;
+  border-radius: 50px;
+  transition: 0.5s;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  color: #FFF;
+}
+/********** Footer **********/
+.footer{
+  padding-top: 30px;
+  border-top: 2px solid #C1DBCD;
+  text-align: center;
+  height: 60px;
+}
+.footer p{
+  font-size: 14px;
+  font-weight: 600;
+}
+.card-s{
+  width: 28rem;
+  height: 20rem;
+  background-color: #E3F3EA;
+  border-radius: 15px;
+  margin: 10px 0;
+}
+
+textarea[spellcheck="false"]{
+  width: 96%;
+  outline: none !important;
+  /* white-space: nowrap !important; */
+  overflow: auto;
+  resize: none;
+  border: none;
+  background-color: transparent;
+}

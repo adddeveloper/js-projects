@@ -10,5 +10,53 @@
         "GitHub": "https://github.com/adddeveloper/js-projects/tree/main/2.%20Music%20Player",
         "Live": "https://adddeveloper.github.io/js-projects/2.%20Music%20Player",
         "CodePen": "https://codepen.io/adnanscode/pen/qBvjYRO"
+    },
+    {
+        "name": "Ball Animation",
+        "GitHub": "https://github.com/adddeveloper/js-projects/tree/main/3. Ball Animation",
+        "Live": "https://adddeveloper.github.io/js-projects/3. Ball Animation",
+        "CodePen": "https://codepen.io/adnanscode/pen/xxpJPpQ"
+    },
+    {
+        "name": "Todo List",
+        "GitHub": "https://github.com/adddeveloper/js-projects/tree/main/4.%20Todo%20List/",
+        "Live": "https://adddeveloper.github.io/js-projects/4.%20Todo%20List/",
+        "CodePen": "https://codepen.io/adnanscode/pen/ExrqWjo"
+    },
+    {
+        "name": "Base64",
+        "GitHub": "https://github.com/adddeveloper/js-projects/tree/main/5. Base64",
+        "Live": "https://adddeveloper.github.io/js-projects/5. Base64",
+        "CodePen": "https://codepen.io/adnanscode/pen/PoEVKKv"
+    },
+    {
+        "name": "Email Validator",
+        "GitHub": "https://github.com/adddeveloper/js-projects/tree/main/6. Email Validator",
+        "Live": "https://adddeveloper.github.io/js-projects/6. Email Validator",
+        "CodePen": "https://codepen.io/adnanscode/pen/MWLNbmz"
+    },
+    {
+        "name": "Phone Validator",
+        "GitHub": "https://github.com/adddeveloper/js-projects/tree/main/7. Phone Validator",
+        "Live": "https://adddeveloper.github.io/js-projects/7. Phone Validator",
+        "CodePen": "https://codepen.io/adnanscode/pen/PoVMbKK"
+    },
+    {
+        "name": "Palindrome Checker",
+        "GitHub": "https://github.com/adddeveloper/js-projects/tree/main/8. Palindrome Checker",
+        "Live": "https://adddeveloper.github.io/js-projects/8. Palindrome Checker",
+        "CodePen": "https://codepen.io/adnanscode/pen/abXeBVo"
+    },
+    {
+        "name": "Random Number Generator",
+        "GitHub": "https://github.com/adddeveloper/js-projects/tree/main/9. Random Number Generator",
+        "Live": "https://adddeveloper.github.io/js-projects/9. Random Number Generator",
+        "CodePen": "https://codepen.io/adnanscode/pen/xxMvRWb"
+    },
+    {
+        "name": "Word Counter",
+        "GitHub": "https://github.com/adddeveloper/js-projects/tree/main/10. Word Counter",
+        "Live": "https://adddeveloper.github.io/js-projects/10. Word Counter",
+        "CodePen": "https://codepen.io/adnanscode/pen/qBgzNYY"
     }
 ]

@@ -2,11 +2,11 @@
 function generateTable(projects) {
   const tableBody = document.getElementById('projectTableBody');
 
-  projects.forEach(project => {
+  projects.forEach((project, i) => {
     const row = document.createElement('tr');
 
     const nameCell = document.createElement('td');
-    nameCell.textContent = project.name;
+    nameCell.textContent = (String(i+1)+". "+project.name);
     row.appendChild(nameCell);
 
     const githubCell = document.createElement('td');
@@ -19,7 +19,7 @@ function generateTable(projects) {
     const liveCell = document.createElement('td');
     const liveLink = document.createElement('a');
     liveLink.href = project.Live;
-    liveLink.textContent = 'Live Link';
+    liveLink.textContent = 'Preview Link';
     liveCell.appendChild(liveLink);
     row.appendChild(liveCell);
 
