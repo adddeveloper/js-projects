@@ -27,7 +27,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://adddeveloper.github.io/js-projects/3. Ball Animation/) :point_left:
+[Live Demo Link](https://adddeveloper.github.io/js-projects/3.%20Ball%20Animation/) :point_left:
 
 ## Authors
 👤 Adnan Hussein

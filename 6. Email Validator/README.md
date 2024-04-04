@@ -24,7 +24,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://adddeveloper.github.io/js-projects/6. Email Validator) :point_left:
+[Live Demo Link](https://adddeveloper.github.io/js-projects/6.%20Email%20Validator) :point_left:
 
 ## Authors
 👤 Adnan Hussein

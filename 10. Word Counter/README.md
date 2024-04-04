@@ -24,7 +24,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://adddeveloper.github.io/js-projects/10. Word Counter) :point_left:
+[Live Demo Link](https://adddeveloper.github.io/js-projects/10.%20Word%20Counter) :point_left:
 
 ## Authors
 👤 Adnan Hussein

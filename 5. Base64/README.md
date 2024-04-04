@@ -24,7 +24,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://adddeveloper.github.io/js-projects/5. Base64) :point_left:
+[Live Demo Link](https://adddeveloper.github.io/js-projects/5.%20Base64) :point_left:
 
 ## Authors
 👤 Adnan Hussein

@@ -24,7 +24,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://adddeveloper.github.io/js-projects/8. Palindrome Checker) :point_left:
+[Live Demo Link](https://adddeveloper.github.io/js-projects/8.%20Palindrome%20Checker) :point_left:
 
 ## Authors
 👤 Adnan Hussein

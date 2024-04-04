@@ -24,7 +24,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://adddeveloper.github.io/js-projects/9. Random Number Generator) :point_left:
+[Live Demo Link](https://adddeveloper.github.io/js-projects/9.%20Random%20Number%20Generator) :point_left:
 
 ## Authors
 👤 Adnan Hussein

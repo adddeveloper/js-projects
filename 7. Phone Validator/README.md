@@ -24,7 +24,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://adddeveloper.github.io/js-projects/7. Phone Validator) :point_left:
+[Live Demo Link](https://adddeveloper.github.io/js-projects/7.%20Phone%20Validator) :point_left:
 
 ## Authors
 👤 Adnan Hussein

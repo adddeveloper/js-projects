@@ -24,7 +24,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://adddeveloper.github.io/js-projects/1. Music Player/) :point_left:
+[Live Demo Link](https://adddeveloper.github.io/js-projects/1.%20Music%20Player/) :point_left:
 
 ## Authors
 👤 Adnan Hussein

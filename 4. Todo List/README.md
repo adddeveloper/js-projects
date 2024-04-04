@@ -24,7 +24,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://adddeveloper.github.io/js-projects/4. Todo List) :point_left:
+[Live Demo Link](https://adddeveloper.github.io/js-projects/4.%20Todo%20List) :point_left:
 
 ## Authors
 👤 Adnan Hussein
