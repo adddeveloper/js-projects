@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bi-star:hover::before, .active::before {
+    content: "\F586" !important;
+}
+
+.screen{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2, p{
+    font-family: monospace;
+    text-align: center;
+}
+
+p{
+    padding-bottom: 1rem;
+}

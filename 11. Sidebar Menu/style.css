@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.menu {
+    text-align: right;
+    color: black;
+    font-size: 2rem;
+    font-weight: bolder;
+    padding: 1rem 1rem;
+    font-family: monospace;
+}
+
+.menu i{
+    cursor: pointer;
+}
+
+.sidebar {
+    position: fixed;
+    inset: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: peachpuff;
+}
+
+a {
+    text-decoration: none;
+    margin: 0.5rem 0;
+    font-family: monospace;
+}
+
+li {
+    list-style: none;
+}
+
+.body_holder {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 100%;
+    height: 90%;
+}
+
+.sidebar .body_holder div {
+    padding: 1rem 0;
+}
+
+i {
+    margin: 0 0.2rem;
+}
+
+.close {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    width: 95%;
+    font-size: 2rem;
+}
+
+.close i{
+    cursor: pointer;
+}
+
+.d-none {
+    display: none;
+}
