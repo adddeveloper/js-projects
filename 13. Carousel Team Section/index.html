@@ -3,9 +3,235 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carousel Team Section</title>
+    <title>Document</title>
 </head>
 <body>
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+<style>
+    .owl-dots {
+    display: none;
+}
+    .person-slider {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .single-person {
+        position: relative;
+        width: 200px; /* Adjust width as needed */
+        margin: 10px;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: box-shadow 0.3s ease;
+    }
+    .single-person:hover {
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+    .part-img img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    .hover-effect {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+    }
+    .single-person:hover .hover-effect {
+        opacity: 1;
+    }
+    .hover-effect a {
+        color: #fff;
+        margin: 5px;
+        text-decoration: none;
+        font-size: 24px;
+    }
+    .hover-effect a:hover i {
+        color: goldenrod;
+    }
+    .hover-effect a {
+        z-index: 2;
+    }
+    /* Animation for ::before and ::after */
+    .hover-effect::before,
+    .hover-effect::after {
+        content: "";
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.5);
+        transition: width 0.3s ease, height 0.3s ease, top 0.3s ease, left 0.3s ease;
+    }
+    .hover-effect::before {
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 100%;
+    }
+    .hover-effect::after {
+        bottom: 0;
+        right: 0;
+        width: 0;
+        height: 100%;
+    }
+    .single-person:hover .hover-effect::before {
+        width: 100%;
+        left: 0;
+    }
+    .single-person:hover .hover-effect::after {
+        width: 100%;
+        right: 0;
+    }
+</style>
+
+<div class="row">
+    <div class="col-xl-12 col-lg-12">
+        <div class="person-slider owl-carousel owl-theme">
+          
+            <div class="single-person">
+                <div class="part-img">
+                    <img src="https://vocal-stardust-b82ae8.netlify.app/eric enge.png" alt="">
+                    <div class="hover-effect">
+                        <a href="https://www.instagram.com/ericgerardrealty"><i class="fas fa-user"></i></a>
+                        <a href="https://www.instagram.com/ericgerardrealty"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/ericgerardrealty"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.youtube.com/@ericenge9658"><i class="fab fa-youtube"></i></a>
+                        <span style="position: absolute;bottom: 1rem;color: white;z-index: 1;font-size: 1.5rem;">Eric Enge</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="single-person">
+                <div class="part-img">
+                    <img src="https://vocal-stardust-b82ae8.netlify.app/Brodrick Colbert.png" alt="">
+                    <div class="hover-effect">
+                        <a href="https://www.instagram.com/ericgerardrealty"><i class="fas fa-user"></i></a>
+                        <a href="https://www.instagram.com/ericgerardrealty"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/ericgerardrealty"><i class="fab fa-facebook-f"></i></a>
+                        <span style="position: absolute;bottom: 1rem;color: white;z-index: 1;font-size: 1.5rem;">Brodrick Colbert</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="single-person">
+                <div class="part-img">
+                    <img src="https://vocal-stardust-b82ae8.netlify.app/Daniel Torrez.png" alt="">
+                    <div class="hover-effect">
+                        <a href="https://www.instagram.com/ericgerardrealty"><i class="fas fa-user"></i></a>
+                        <a href="https://www.instagram.com/ericgerardrealty"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/ericgerardrealty"><i class="fab fa-facebook-f"></i></a>
+                        <span style="position: absolute;bottom: 1rem;color: white;z-index: 1;font-size: 1.5rem;">Daniel Torrez</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="single-person">
+                <div class="part-img">
+                    <img src="https://vocal-stardust-b82ae8.netlify.app/Jordan McGowen.png" alt="">
+                    <div class="hover-effect">
+                        <a href="https://www.instagram.com/ericgerardrealty"><i class="fas fa-user"></i></a>
+                        <a href="https://www.instagram.com/ericgerardrealty"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/ericgerardrealty"><i class="fab fa-facebook-f"></i></a>
+                        <span style="position: absolute;bottom: 1rem;color: white;z-index: 1;font-size: 1.5rem;">Jordan McGowen</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="single-person">
+                <div class="part-img">
+                    <img src="https://vocal-stardust-b82ae8.netlify.app/Shalyn Colbert.png" alt="">
+                    <div class="hover-effect">
+                        <a href="https://www.instagram.com/ericgerardrealty"><i class="fas fa-user"></i></a>
+                        <a href="https://www.instagram.com/ericgerardrealty"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/ericgerardrealty"><i class="fab fa-facebook-f"></i></a>
+                        <span style="position: absolute;bottom: 1rem;color: white;z-index: 1;font-size: 1.5rem;">Shalyn Colbert</span>
+                    </div>
+                </div>
+            </div>
+          
+            <div class="single-person">
+                <div class="part-img">
+                    <img src="https://vocal-stardust-b82ae8.netlify.app/Ingrid Sanchez.png" alt="">
+                    <div class="hover-effect">
+                        <a href="https://www.instagram.com/ericgerardrealty"><i class="fas fa-user"></i></a>
+                        <a href="https://www.instagram.com/ericgerardrealty"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/ericgerardrealty"><i class="fab fa-facebook-f"></i></a>
+                        <span style="position: absolute;bottom: 1rem;color: white;z-index: 1;font-size: 1.5rem;">Ingrid Sanchez</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="single-person">
+                <div class="part-img">
+                    <img src="https://vocal-stardust-b82ae8.netlify.app/Cindy Vang.png" alt="">
+                    <div class="hover-effect">
+                        <a href="https://www.instagram.com/ericgerardrealty"><i class="fas fa-user"></i></a>
+                        <a href="https://www.instagram.com/ericgerardrealty"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/ericgerardrealty"><i class="fab fa-facebook-f"></i></a>
+                        <span style="position: absolute;bottom: 1rem;color: white;z-index: 1;font-size: 1.5rem;">Cindy Vang</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="single-person">
+                <div class="part-img">
+                    <img src="https://vocal-stardust-b82ae8.netlify.app/Robyn Wright.png" alt="">
+                    <div class="hover-effect">
+                        <a href="https://www.instagram.com/ericgerardrealty"><i class="fas fa-user"></i></a>
+                        <a href="https://www.instagram.com/ericgerardrealty"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/ericgerardrealty"><i class="fab fa-facebook-f"></i></a>
+                        <span style="position: absolute;bottom: 1rem;color: white;z-index: 1;font-size: 1.5rem;">Robyn Wright</span>
+                    </div>
+                </div>
+            </div>
+          
+            
+            <div class="single-person">
+                <div class="part-img">
+                    <img src="https://vocal-stardust-b82ae8.netlify.app/Trisa Kyle.png" alt="">
+                    <div class="hover-effect">
+                        <a href="https://www.instagram.com/ericgerardrealty"><i class="fas fa-user"></i></a>
+                        <a href="https://www.instagram.com/ericgerardrealty"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/ericgerardrealty"><i class="fab fa-facebook-f"></i></a>
+                        <span style="position: absolute;bottom: 1rem;color: white;z-index: 1;font-size: 1.5rem;">Trisa Kyle</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $('.person-slider').owlCarousel({
+            loop:true,
+            margin:0,
+            nav:true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:3
+                },
+                1000:{
+                    items:7
+                }
+            }
+        });
+    });
+</script>
+
 </body>
 </html>
